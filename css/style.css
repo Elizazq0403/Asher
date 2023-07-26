@@ -223,6 +223,23 @@
     z-index: 1;
 }
 
+.team-text-2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/team.jpg) bottom center no-repeat;
+    background-size: cover;
+    height: 90px;
+    padding: 0 30px;
+    right: 45px;
+    left: 45px;
+    bottom: -45px;
+    transition: .5s;
+    z-index: 1;
+}
+
 .team-item:hover .team-text {
     height: 100%;
     bottom: 0;
@@ -298,4 +315,36 @@
     .bg-footer {
         background-size: cover;
     }
+}
+
+span {
+    font-weight: lighter;
+  }
+
+.taladro {
+    background-size: 1000px 500px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    padding: 0 390px;
+} 
+
+.team-text2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/team.jpg) bottom center no-repeat;
+    background-size: cover;
+    height: 90px;
+    padding: 0 30px;
+    right: 45px;
+    left: 45px;
+    bottom: -45px;
+    transition: .5s;
+    z-index: 1;
 }
